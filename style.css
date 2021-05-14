@@ -1,12 +1,21 @@
+.header {
+  position: fixed;
+  display: block;
+  z-index: 1;
+}
+
 .nav-pills{
   font-size: 1.8em;
   margin-bottom: 15%;
+  background-color: black;
+  opacity: 0.75;
 }
 
 .nav-pills a{
   color: rgb(255, 108, 99);
   font-size: 1.5em;
   margin-top: 20px;
+  position: absolute;
 }
 
 body{
@@ -15,26 +24,22 @@ body{
   
 }
 
-#projectheading{
-  padding-bottom: 50px;
-
-}
-
 .btn-default{
   background-color: black;
   border-color: black;
-  color: white;
-  opacity: .6;
+  color: rgb(255, 108, 99);
+  opacity: .8;
   font-size: 1.6em;
   margin-top: 1%;
-  margin-left: 35px;
+  margin-left: 50px;
+  margin-right: 35px;
+  
 }
 
-.block {
-
-  color: white;
-  padding-top: 60px;
-  padding-bottom: 25px;
+.block1 {
+  padding-top: 370px;
+  padding-bottom: 85px;
+  padding-left: 30px;
   width: 50%;
   margin-right: auto;
   margin-left: auto;
@@ -55,7 +60,7 @@ body{
   background:url("https://images.unsplash.com/photo-1506440885189-ba4072a9305f?auto=format&fit=crop&w=1500&q=80");
   background-size:cover;
   height: 900px;
-}
+  }
 
 .pageTwo{
   background: url("https://images.unsplash.com/photo-1472437774355-71ab6752b434?auto=format&fit=crop&w=1567&q=80");
@@ -82,6 +87,9 @@ p{
   padding-top:5%;
 }
 
+#projectheading{
+  padding-bottom: 50px;
+}
 
 #projectbuttons {
     color: white;
