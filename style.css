@@ -12,14 +12,7 @@
 body{
   background-color: white;
   font-family: 'Montserrat', sans-serif;
-  color: white;
-}
-
-h1{
-  padding: 0;
-  margin-top: 0px;
-  font-size: 5em;
-  color: white;
+  
 }
 
 #projectheading{
@@ -37,34 +30,21 @@ h1{
   margin-left: 35px;
 }
 
-.block{
-  background-color: black;
-  opacity: .6;
-  padding: 20px;
+.block {
+
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 25px;
   width: 50%;
   margin-right: auto;
   margin-left: auto;
   border-radius: 6px;
-
 }
 
-/* Up Arrow */
-
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: black; /* Set a background color */
-    color: white); /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 20px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    opacity: .6;
-    font-size: 30px;
+#pageone-name {
+  color: black;
+  font-weight: bolder;
+  font-size: 70px;
 }
 
 #myBtn:hover {
@@ -131,7 +111,6 @@ p{
 }
 
 /* Download Resume Button */
-
 .button {
   background-color: #008CBA;
   border: none;
@@ -152,4 +131,22 @@ p{
   background-size:cover;
   height:900px;
   padding-top:5%;
+}
+
+/* Up Arrow */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 20px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  opacity: .6;
+  font-size: 30px;
 }
