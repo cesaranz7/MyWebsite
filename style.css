@@ -16,7 +16,7 @@ html {
 
 .nav-pills{
   font-size: 1.8em;
-  margin-bottom: 15%;
+  margin-bottom: 2%;
   background-color: black;
   opacity: 0.75;
 }
@@ -130,12 +130,13 @@ body{
   padding-top:3%;
 }
 
-.header4 {
-  font-size: 50px;
-  color: rgb(255, 108, 99);
-  padding-bottom: 80px;
+.resumeDiv{
+  padding-top: 50px;
 }
 
+.frontEnd {
+  font-size: 45px;
+}
 
 /* Container for skill bars */
 .skills-container {
@@ -159,6 +160,7 @@ body{
 .html {width: 80%; background-color: #04AA6D;} /* Green */
 .css {width: 80%; background-color: #2196F3;} /* Blue */
 .js {width: 65%; background-color: #f44336;} /* Red */
+.git {width: 65%; background-color: purple;}
 
 
 /* TIMLINE BEGINS */
@@ -319,6 +321,20 @@ body{
   height:900px;
   padding-top:5%;
 }
+
+.header5 {
+  font-size: 80px;
+  color: #008CBA;
+  padding-bottom: 80px;
+}
+
+#pagefive-name {
+  font-size: 50px;
+  color: rgb(240, 52, 42);
+  padding-top: 225px;
+  padding-bottom: 80px;
+}
+
 
 /* Up Arrow */
 #myBtn {
